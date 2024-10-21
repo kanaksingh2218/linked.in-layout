@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+body{
+    background-color: white;
+    font-family: sans-serif;
+    /* height: 100vh; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.navbar {
+  background-color: #fff;
+  width: 100vw;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-color: rgba(0, 0 ,0, 0.9);
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.img1{
+    height: 41px;
+    width: 41px;
+}
+/* .search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+input[type=text] {
+    box-sizing: border-box;
+    border-radius:4px;
+    font-size: 16px;
+    background-color: #edf3f8;
+    background-image: url('images/search\ \(2\).svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    border: none;
+    height: 34px;
+    width: 280px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 13px;
+    margin-left: 100px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-network{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.messaging{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.notification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .img2{
+    height: 24px;
+    width: 24px;
+} */
+.business{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-left: 1px solid grey;
+    margin-left: 20px;
+    padding: 5px;
+}
+.line{
+    font-size: 12px;
+    color: #915907;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.main-content{
+    background-color: rgba(0, 0, 0, 0);
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.left-side{
+    background-color: pink;
+}
+.middle{
+    background-color: rgb(230, 171, 76);
+}
+.right-side{
+    background-color: paleturquoise;
+}
