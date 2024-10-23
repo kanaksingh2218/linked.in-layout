@@ -5,7 +5,7 @@
 }
 body{
     background-color: white;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     /* height: 100vh; */
 }
 .container{
@@ -109,10 +109,105 @@ input[type=text] {
     height: 90vh;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    margin-inline: 70px;
 }
-.left-side{
+/* .left-side{
     background-color: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} */
+.profile-header{
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
 }
+.profile-img{
+    width: 70px;
+    height: 70px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    align-self: flex-start;
+}
+.profile-info p{
+    font-size: 12px;
+    color: #777;
+}
+.experience-btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 0 dotted rgb(158, 181, 202);
+    border-radius: 5px;
+    background-color: rgb(158, 181, 202);
+    color: rgb(86, 104, 122);
+    margin-top: 15px;
+}
+.premium{
+    background-color: #fff;
+    width: 300px;
+    gap:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+.premium p{
+    color: rgb(86, 104, 122);
+    font-size: 12px;
+}
+.premium span{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.connection{
+    background-color: #fff;
+    width: 300px;
+    gap:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+.network{
+    color: rgb(86, 104, 122);
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.connect , .invite{
+    display: flex;
+    justify-content: space-between
+}
+.links{
+    background-color: #fff;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+.saved, .group, .event{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .middle{
     background-color: rgb(230, 171, 76);
 }
